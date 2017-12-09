@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Funda</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+   </head>
+   <body>
+      <header>
+         <div class="logo">
+            <img src="https://assets.fstatic.nl/master_1424/assets/components/logo/fundawonen-logo.svg" alt="logo">
+         </div>
+         <div class="reg">
+            <a href="#">Inloggen|</a>
+            <a href="#">Registreren</a>
+         </div>
+      </header>
+      <div class="mainPhoto">
+         <div class="bike">
+            <img src="https://assets.fstatic.nl/master_1444/assets/components/search-banner/images/eengezins-links.svg" alt="bike">
+         </div>
+         <h2>Een huis dat alles heeft,
+            zelfs<br> barretjes om de hoek
+         </h2>
+         <div class="house">
+            <img src="https://assets.fstatic.nl/master_1444/assets/components/search-banner/images/eengezins-rechts.svg" alt="house">
+         </div>
+      </div>
+      <div class="searchBox">
+         <div class="navBar">
+            <ul>
+               <li>Koop</li>
+               <li>Huur</li>
+               <li>Nieuwbouw</li>
+               <li>Recratie</li>
+               <li>Europa</li>
+            </ul>
+            <input type="search" name="search" id="searchInput" placeholder="Plaats, buurt, adres etc.">
+            <select id="selectKm">
+               <option class="service-small">+ 0 km</option>
+               <option class="service-small">+ 1 Km</option>
+               <option class="service-small">+ 2 km</option>
+               <option class="service-small">+ 5 km</option>
+               <option class="service-small">+ 10 km</option>
+               <option class="service-small">+ 15 km</option>
+            </select>
+            <select id="price">
+               <option value="other">Anders</option>
+               <option selected="" data-range-filter-selector-default-value="" value="0">Van € 0</option>
+               <option value="50000">€ 50.000</option>
+               <option value="75000">€ 75.000</option>
+               <option value="100000">€ 100.000</option>
+               <option value="125000">€ 125.000</option>
+               <option value="150000">€ 150.000</option>
+               <option value="175000">€ 175.000</option>
+               <option value="200000">€ 200.000</option>
+               <option value="225000">€ 225.000</option>
+               <option value="250000">€ 250.000</option>
+               <option value="275000">€ 275.000</option>
+               <option value="300000">€ 300.000</option>
+               <option value="325000">€ 325.000</option>
+               <option value="350000">€ 350.000</option>
+               <option value="375000">€ 375.000</option>
+               <option value="400000">€ 400.000</option>
+               <option value="450000">€ 450.000</option>
+               <option value="500000">€ 500.000</option>
+               <option value="550000">€ 550.000</option>
+               <option value="600000">€ 600.000</option>
+               <option value="650000">€ 650.000</option>
+               <option value="700000">€ 700.000</option>
+               <option value="750000">€ 750.000</option>
+               <option value="800000">€ 800.000</option>
+               <option value="900000">€ 900.000</option>
+               <option value="1000000">€ 1.000.000</option>
+               <option value="1250000">€ 1.250.000</option>
+               <option value="1500000">€ 1.500.000</option>
+               <option value="2000000">€ 2.000.000</option>
+            </select>
+            <select id="price">
+               <option value="other">Anders</option>
+               <option value="50000">€ 50.000</option>
+               <option value="75000">€ 75.000</option>
+               <option value="100000">€ 100.000</option>
+               <option value="125000">€ 125.000</option>
+               <option value="150000">€ 150.000</option>
+               <option value="175000">€ 175.000</option>
+               <option value="200000">€ 200.000</option>
+               <option value="225000">€ 225.000</option>
+               <option value="250000">€ 250.000</option>
+               <option value="275000">€ 275.000</option>
+               <option value="300000">€ 300.000</option>
+               <option value="325000">€ 325.000</option>
+               <option value="350000">€ 350.000</option>
+               <option value="375000">€ 375.000</option>
+               <option value="400000">€ 400.000</option>
+               <option value="450000">€ 450.000</option>
+               <option value="500000">€ 500.000</option>
+               <option value="550000">€ 550.000</option>
+               <option value="600000">€ 600.000</option>
+               <option value="650000">€ 650.000</option>
+               <option value="700000">€ 700.000</option>
+               <option value="750000">€ 750.000</option>
+               <option value="800000">€ 800.000</option>
+               <option value="900000">€ 900.000</option>
+               <option value="1000000">€ 1.000.000</option>
+               <option value="1250000">€ 1.250.000</option>
+               <option value="1500000">€ 1.500.000</option>
+               <option value="2000000">€ 2.000.000</option>
+               <option selected="" data-range-filter-selector-default-value="" value="ignore_filter"> Tot Geen maximum</option>
+            </select>
+            <button class="zoek" type="submit">Zoek</button>
+         </div>
+      </div>
+      <div class="kaartZoek">
+         <h4 class="kaart"> <a href="#"> > Op kaart zoeken</a> </h4>
+         <h4> <a href="#"> > NVM makelaar zoeken</a> </h4>
+      </div>
+      <div class="offersPic">
+         <h2>Woning in beeld</h2>
+         <img src="147_720x480.jpg" class="firstImg">  
+         <img src="595_720x480.jpg">  
+         <img src="603_720x480.jpg">  
+      </div>
+      <div class="street">
+         <p class="firstOffer">Rederserf 152</p>
+         <p class="secondOffer">Slikkenburg 21</p>
+         <p class="thirdOffer">Scheeneweg 16</p>
+      </div>
+      <div class="postcode">
+         <p class="firstOffer">2586 KE Den Haag</p>
+         <p class="secondOffer">4691 TC Tholen</p>
+         <p class="thirdOffer">8471 ZG Wolvega</p>
+      </div>
+      <div class="price">
+         <p class="firstOffer">€ 950.000 k.k.</p>
+         <p class="secondOffer">€ 349.500 k.k.</p>
+         <p class="thirdOffer">€ 995.000 k.k.</p>
+      </div>
+      <div class="TheWoodenHouse">
+         <br><br><br>
+         <h2>5x Huizen met een naam</h2>
+         <br><br>
+         <a href="#">
+            <p>Naar de huizen</p>
+         </a>
+      </div>
+      <div class="nieuws">
+         <h2>Van de redactie van funda Thuis</h2>
+         <div class="autumnPic">
+            <a href="#">
+               <p> <span class="header">Je huis en tuin winterklaar met deze 6 herfstklussen</span> <br><br>
+                  Het is herfst! Dus verkassen we weer naar binnen. Dit zijn de klusjes die je gedaan moet hebben voor je een winter lang bij de kachel kunt zitten.<br><br>
+               Lees het artikel > 
+               </p>
+            </a>
+         </div>
+         <div class="smallPic">
+            <ul>
+               <li>
+                  <img src="header_2016x658_erkende-verhuizers-artikel-3-1.jpg">
+               </li>
+               <li>
+                  <img src="header_welke-regels_2016x658.jpg">
+               </li>
+               <li>
+                  <img src="header_2016x658_woonwensen-top-8.jpg">
+               </li>
+               <li>
+                  <img src="header_2016x658_gamma-9-klussen-2.jpg">
+               </li>
+               <li>
+                  <img src="header_top-5verbouwen_2016x658-2.jpg">
+               </li>
+            </ul>
+         </div>
+         <div class="dicSmallPic">
+            <ul>
+               <li>
+                  <h4>De 9 types die je in je <br>verhuisteam moet hebben.</h4>
+               </li>
+               <li>
+                  <h4>Welke regels gelden er aan<br> de onderhandeltafel?</h4>
+               </li>
+               <li>
+                  <h4>Woonwensen Top 8</h4>
+               </li>
+               <li>
+                  <h4>9 Klussen die áltijd blijven <br> liggen na een verhuizing</h4>
+               </li>
+               <li>
+                  <h4>Oud huis, nieuw gevoel</h4>
+               </li>
+               <li>
+                  <h4>De 9 types die je in je<br> verhuisteam moet hebben.</h4>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="option">
+            <ul class="firstRow">
+               <li>English</li>
+               <br> 
+               <li><a href="">Funda in English</a></li>
+               <br><br>
+               <li>Makelaars</li>
+               <br> 
+               <li><a href="">Funda desk</a></li>
+               <br>
+               <li><a href="">Informatie</a></li>
+               <br>
+            </ul>
+            <ul class="secondRow">
+               <li>Service</li>
+               <br>
+               <li><a href="#">Inloggen</a></li>
+               <br>
+               <li><a href="#">Help</a></li>
+               <br> 
+               <li><a href="#">Contact</a></li>
+               <br>
+            </ul>
+            <ul class="thirdRow">
+               <li>Huis op funda</li>
+               <br>
+               <li><a href="#">Het funda Huis</a></li>
+               <br>
+               <li><a href="#">Huis plaatsen</a></li>
+               <br> 
+               <li><a href="#">NVM makelaar</a></li>
+               <br>
+               <li><a href="#">Bladeren</a></li>
+               <br>
+               <li><a href="#">Hoe koop ik een huis?</a></li>
+               <br>
+            </ul>
+            <ul class="forthRow">
+               <li>Funda</li>
+               <br>
+               <li><a href="#">Over funda</a></li>
+               <br>
+               <li><a href="#">Vacatures</a></li>
+               <br> 
+               <li><a href="#">Adverteren</a></li>
+               <br>
+            </ul>
+         </div>
+         <hr>
+         <div class="contact">
+          
+         </div>
+      </div>
+   </body>
+</html>
